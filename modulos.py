@@ -13,7 +13,7 @@ def leropc(msg):
         
 def menu(lista):
     print("=====MENU======")
-    c = 0
+    c = 1
     for item in lista:
         print(f"{c} > {item}")
         c += 1
