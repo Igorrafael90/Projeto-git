@@ -20,3 +20,13 @@ def menu(lista):
     print("===============")
     opc = leropc("Digite sua escolha: ")
     return opc
+
+def menu_config(lista):
+    print("=====Config======")
+    c = 1
+    for item in lista:
+        print(f"4.{c} > {item}")
+        c += 1
+    print("===============")
+    opc = leropc("Digite sua escolha: ")
+    return opc
