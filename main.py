@@ -105,5 +105,7 @@ while True:
         listar_aluno_por_matricula()
     if escolha == "4":
         listar_alunos()
+    if escolha == "5":
+        cadastro_disciplina()
     elif escolha == "6":
         break
