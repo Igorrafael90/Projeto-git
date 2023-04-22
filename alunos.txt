@@ -1,0 +1,2 @@
+Matricula:002;Nome:Maykon;Nota1:10.0;Nota2:2.0;Nota3:3.0;Faltas:2;Media:5.0
+Matricula:003;Nome:JOELSON;Nota1:10.0;Nota2:2.0;Nota3:3.0;Faltas:2;Media:5.0
