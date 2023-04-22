@@ -14,7 +14,17 @@ def cadastrar_aluno():
     with open("alunos.txt", "a") as arquivo:
         arquivo.write(dados_aluno)
     print("Aluno cadastrado com sucesso!\n")
-
+    
+def cadastro_disciplina():
+    print("===== CADASTRAR DISCIPLINA =====")
+    nome_d = input("Digite o nome da disciplina: ")
+    nome_p = input("Digite o nome do professor: ")
+    carga_h = float(input("Digite uma carga horaria: "))
+    ano = int(input("Digite o ano de conclusão da disciplina: "))
+    dados_disciplina = f"Disciplina: {nome_d};\nNome do professor: {nome_p};\nCarga horaria necessaria:{carga_h};\nAno de conclusao: {ano} anos;"
+    with open("configuração.txt", "a") as arquivo:
+        arquivo.write(dados_disciplina)
+    print("Disciplina cadastrada com sucesso")
 
 def listar_alunos():
     dados_aluno = None
